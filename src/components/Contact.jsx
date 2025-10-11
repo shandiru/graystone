@@ -71,8 +71,8 @@ export default function Contact() {
       title: 'Opening Hours',
       value: (
         <>
-          <p>Monday - Friday: 8:00 AM - 5:30 PM</p>
-          <p>Saturday: 8:00 AM - 1:00 PM</p>
+          <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+          <p>Saturday: Closed</p>
           <p>Sunday: Closed</p>
         </>
       ),
