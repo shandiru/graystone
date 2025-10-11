@@ -112,7 +112,7 @@ export default function Footer() {
                   className="hover:underline underline-offset-4 text-white/90"
                   title="Open in Google Maps"
                 >
-                  3 Bryta Works, Little London Rd, Woodseats, Sheffield S8 0UJ, UK
+                  3, Bryta Works, Little London Rd, Woodseats, Sheffield S8 0UJ, United Kingdom
                 </a>
               </div>
               <div>

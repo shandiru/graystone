@@ -14,6 +14,11 @@ export default function Contact() {
   const formRef = useRef();
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(null);
+  const address =
+    "Greystone Automotive Engineers Ltd, 3 Bryta Works, Little London Rd, Woodseats, Sheffield S8 0UJ, UK";
+  const mapsUrl =
+    "https://www.google.com/maps/search/?api=1&query=" +
+    encodeURIComponent(address);
 
   useEffect(() => {
     AOS.init({
@@ -50,13 +55,13 @@ export default function Contact() {
       title: 'Address',
       value: (
         <a
-          href="https://www.google.com/maps/place/Greystone+Automotive+Engineers+Ltd,+3+Bryta+Works,+Little+London+Rd,+Woodseats,+Sheffield+S8+0UJ,+UK"
+          href={mapsUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline"
           style={{ color: brandOrange }}
         >
-          3 Bryta Works, Little London Rd, Sheffield S8 0UJ, UK
+        3 Bryta Works, Little London Rd, Woodseats, Sheffield S8 0UJ, UK
         </a>
       ),
       note: 'Find us easily with free parking onsite',
