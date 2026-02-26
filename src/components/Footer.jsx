@@ -181,7 +181,7 @@ export default function Footer() {
           className="mt-10 pt-6 border-t border-white/30 text-center text-sm text-white/90 flex flex-col md:flex-row items-center justify-between gap-4"
         >
           <p>
-            © 2025 Greystone Automotive. All rights reserved. | Professional automotive services you
+            © 2026 Greystone Automotive. All rights reserved. | Professional automotive services you
             can trust.
           </p>
 
